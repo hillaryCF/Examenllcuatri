@@ -4,10 +4,14 @@ body{
 }
 // 1er contenedor
 .container{
-    margin:  0px 10px 0px 10px;
-    max-width: 980px;
+    margin:  0px 20px 0px 20px;
+    
 }
-
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
 .listamenu{
     list-style: none;
     display: none;
@@ -35,6 +39,7 @@ body{
         margin: 0;
         padding-top: 15px;
         font-size: 12px;
+        width: 80%;
     }
 }
 .imagecontainer{
@@ -58,6 +63,11 @@ body{
 #telefono{
     border-left: 2px solid $grey;
     padding-bottom: 128px;
+    // transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+}
+#imgtelefono{
+    text-align: center;
+    padding-top: 118px;
 }
 #info{
     p{
@@ -78,7 +88,7 @@ body{
 .listafooter{
     list-style: none;
     margin:0 ;
-    padding-bottom: 100%;
+    padding-bottom: 20%;
     
 }
 .listafooter{
@@ -89,4 +99,10 @@ body{
         margin-right: 54px;
         padding-bottom: 60px;
     }
+}
+#rayo{
+    float: right;
+    margin-right: 34px;
+    margin-top: -40px;
+    margin-bottom: 0px;
 }

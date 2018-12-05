@@ -1,0 +1,34 @@
+@media(min-width: $breakpoint-md){
+    .menuelogo{
+        display: none;
+    }
+    .listamenu {
+        display: inline-block;
+        margin: 0 ;
+        float: right;
+        padding-top: 17px;
+    }
+    .listamenu li {
+        text-decoration: none;
+        color: #403d40;
+        display: inline;
+    }
+    .listamenu a {
+        margin-left: 60px;
+    }
+    .listamenu a:hover {
+        color: $hover;
+    }
+    .listafooter a {
+        margin-right: 106px;
+        font-size: 25px;
+    }
+    .listafooter {
+        margin-top: 40px;
+    }
+    .listafooter a:hover {
+        color:$hover;
+    }
+}
+
+

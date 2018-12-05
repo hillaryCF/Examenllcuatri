@@ -3,8 +3,12 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 .container {
-  margin: 0px 10px 0px 10px;
-  max-width: 980px; }
+  margin: 0px 20px 0px 20px; }
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
 
 .listamenu {
   list-style: none;
@@ -27,7 +31,8 @@ body {
 .container p {
   margin: 0;
   padding-top: 15px;
-  font-size: 12px; }
+  font-size: 12px;
+  width: 80%; }
 
 .imagecontainer {
   display: inline-block;
@@ -51,6 +56,10 @@ body {
   border-left: 2px solid #403d40;
   padding-bottom: 128px; }
 
+#imgtelefono {
+  text-align: center;
+  padding-top: 118px; }
+
 #info p {
   text-align: center; }
 
@@ -68,7 +77,7 @@ body {
 .listafooter {
   list-style: none;
   margin: 0;
-  padding-bottom: 100%; }
+  padding-bottom: 20%; }
 
 .listafooter a {
   text-decoration: none;
@@ -76,5 +85,41 @@ body {
   float: left;
   margin-right: 54px;
   padding-bottom: 60px; }
+
+#rayo {
+  float: right;
+  margin-right: 34px;
+  margin-top: -40px; }
+
+@media (min-width: 768px) {
+  .menuelogo {
+    display: none; }
+
+  .listamenu {
+    display: inline-block;
+    margin: 0;
+    float: right;
+    padding-top: 17px; }
+
+  .listamenu li {
+    text-decoration: none;
+    color: #403d40;
+    display: inline; }
+
+  .listamenu a {
+    margin-left: 60px; }
+
+  .listamenu a:hover {
+    color: #79e5e9; }
+
+  .listafooter a {
+    margin-right: 106px;
+    font-size: 25px; }
+
+  .listafooter {
+    margin-top: 40px; }
+
+  .listafooter a:hover {
+    color: #79e5e9; } }
 
 /*# sourceMappingURL=style.css.map */
