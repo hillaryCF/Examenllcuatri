@@ -1,0 +1,80 @@
+body {
+  margin: 125px 0px 0px 0px;
+  font-family: 'Montserrat', sans-serif; }
+
+.container {
+  margin: 0px 10px 0px 10px;
+  max-width: 980px; }
+
+.listamenu {
+  list-style: none;
+  display: none; }
+
+.listamenu a {
+  text-decoration: none;
+  color: #403d40; }
+
+.menuelogo {
+  max-width: 5%;
+  padding-left: 245px; }
+
+.container h1 {
+  margin: 0;
+  font-weight: 223px;
+  margin-top: 55px;
+  font-size: 85px; }
+
+.container p {
+  margin: 0;
+  padding-top: 15px;
+  font-size: 12px; }
+
+.imagecontainer {
+  display: inline-block;
+  margin-top: -4px; }
+
+.imagcontainer {
+  margin-top: 67px; }
+
+.image {
+  display: inline; }
+
+.donasimg {
+  max-width: 49%;
+  margin: 0; }
+
+.confitesimg {
+  max-width: 49%;
+  display: inline; }
+
+#telefono {
+  border-left: 2px solid #403d40;
+  padding-bottom: 128px; }
+
+#info p {
+  text-align: center; }
+
+#infonumber {
+  margin-top: 20px;
+  font-size: 45px;
+  text-align: center; }
+
+#mail {
+  color: #79e5e9; }
+
+.color {
+  background-color: #f2fbfb; }
+
+.listafooter {
+  list-style: none;
+  margin: 0;
+  padding-bottom: 100%; }
+
+.listafooter a {
+  text-decoration: none;
+  color: black;
+  float: left;
+  margin-right: 54px;
+  padding-bottom: 60px; }
+
+/*# sourceMappingURL=style.css.map */
